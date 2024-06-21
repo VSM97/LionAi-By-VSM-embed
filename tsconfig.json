@@ -3,9 +3,14 @@
     "include": ["src/**/*"],
     "exclude": ["dist", "node_modules"],
     "compilerOptions": {
+        "typeRoots": [
+      "./node_modules/@types",
+      "./src/typings"
+    ],
         "baseUrl": ".",
         "paths": {
-            "@/*": ["src/*"]
+            "@/*": ["src/*"],
+            "rollup-plugin-serve": ["node_modules/rollup-plugin-serve/index.d.ts"],
         },
         "jsx": "preserve",
         "jsxImportSource": "solid-js",
