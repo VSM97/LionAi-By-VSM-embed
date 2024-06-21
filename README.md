@@ -4,8 +4,6 @@
 
 Javascript library to display LionAi chatbot on your website
 
-
-
 Install:
 
 ```bash
